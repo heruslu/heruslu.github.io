@@ -8,4 +8,3 @@ To upload video
     <source src="https://cpb-us-w2.wpmucdn.com/sites.udel.edu/dist/0/3513/files/2018/03/viscoelastic_waves_coupled_system_simulation-1ifd2cs.mp4" media="only screen and (max-device-width: 568px)"></source>
 </video>
 
-$ \mathbf u = \mathbf 1 $
