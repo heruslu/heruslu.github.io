@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title>Hasan H. Eruslu</title>
+	<meta name="description" content="A minimalist Bootstrap theme by StartBootstrap. Contains everything you need to get started building your website. All you have to do is change the text and images.">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+.size {
+	font-size: 18px;
+}
+</style>
+</head>
+
+	
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Hasan H. Eruslu</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">About</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="news.html">News</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    
+
+    <!-- Page Content -->
+    <div class="container">
+        <!-- Features Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Projects</h2>
+            </div>
+            <div class="col-md-6">                
+				<strong><span class="size">Simulations of Viscoelastic Waves</span> <br />
+				</strong>
+				<strong>What is viscoelasticity?</strong>
+				Viscoelasticity have been used to model deformation and stress in certain solids, including metals, polymers, and biological materials, when they are under external forces.<br><br>
+
+				<strong>What we do?</strong>
+				The stress-strain relation of viscoelastic materials can be modeled using classical as well as fractional Zener models. 
+				Under external load and traction terms we study the stability and well-posedness of the viscoelastic wave problem in both the Laplace and time domains. 
+
+				We use our team’s computational package to test our theoretical results on a model and 
+				create three dimensional simulation of the solution.<br><br>
+
+				<strong>Results.</strong>
+				The figure on right is the result of one of our numerical simulations where the material is modeled by Fractional Zener model 
+				and the bottom of the solid is shaken but the rest of the boundary is free. 
+				The traveling viscoelastic waves from bottom to top as well as the dissipativity of the system are captured.<br><br>
+
+				The video below the picture demonstrates the deformation of a viscoelastic solid when a hand press-like input is given.
+				The material is assumed to be a light and viscoelastic with fractional Zener model.<br><br>
+		    
+		    	<strong>More.</strong>
+		    		For the details of the model, and theory see our 
+		    		<a href="https://content.sciendo.com/view/journals/amns/3/1/article-p55.xml">team paper</a>.<br><br>
+		    		
+		    		To learn more about creating a simulation with our team's MATLAB software, check out my 
+		    		<a href="https://github.com/heruslu/Viscoelasticity">GitHub repository</a>.
+		    	
+			</div>
+ 
+            <div class="col-md-6">
+            	<br>
+            	<img src="images/viscoelastic_wave_simulation.png" width="600px" height="200px"  /><br />
+            	
+            	<video width="618" height="347" controls preload> 
+    				<source src="videos/viscoelastic_deformation_hand_press.mp4" media="only screen and (min-device-width: 568px)"></source>
+				</video>
+            </div>
+        </div> <!-- End of row -->
+        
+        <br><br>
+        
+        <div class="row">
+        	<div class="col-md-6">                
+        		<strong><span class="size">Surface segmentation of objects in 3D images</span> <br />
+				</strong>
+				<strong>Goal.</strong>
+				This is an ongoing project with Dr. Gunay Dogan at NIST. Our goal is to build a software with a python interface 
+				that extracts the boundary of a list of objects in a 3D image. 
+				Target images are microscale material images. <br><br>
+				
+				<strong>Method.</strong>
+				We use an energy minimization with a FEM solver to iteratively converge to the target surface. 
+				Our energy functional takes advantage of a combination of edge-based and region-based models and achieves 
+				a fast convergence.<br><br>
+				
+				<strong>Simulation.</strong>
+				Given a 3D array of pixel intensities, and approximation parameters, the user can obtain an approximation 
+				of the surfaces of the objects in terms of a mesh data format. The animation on the right is an example of capturing 
+				the surface of a 3D box-object. Red points correspond to high pixel intensities. We see that the evolving surface 
+				adaptively captures the sharp edges.
+				<br><br>
+				
+				<strong>Software</strong> will be available on GitHub soon.
+			</div>
+			<div class="col-md-6">
+				<br>
+            	<video width="618" height="347" controls preload> 
+    				<source src="videos/box.mp4" media="only screen and (min-device-width: 568px)"></source>
+				</video>
+            </div>
+        </div> <!-- End of row -->
+        
+        <hr>
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Hasan H. Eruslu, 2019 | <a href="https://html5-templates.com/" target="_blank" rel="nofollow">HTML5 Templates</a></p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
